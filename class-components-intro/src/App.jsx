@@ -1,5 +1,13 @@
+import ClassComponent from "./components/ClassComponent";
+import FunctionComponent from "./components/FunctionComponent";
+
 function App() {
-  return <>My App</>;
+  return (
+    <>
+      <FunctionComponent />
+      <ClassComponent />
+    </>
+  );
 }
 
 export default App;
