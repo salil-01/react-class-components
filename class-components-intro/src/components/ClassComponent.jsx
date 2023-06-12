@@ -1,4 +1,5 @@
 import React from "react";
+// importing css from module i.e. locally scoped instead of using globally declared
 import styles from "./ClassComponent.module.css";
 class ClassComponent extends React.Component {
   render() {
